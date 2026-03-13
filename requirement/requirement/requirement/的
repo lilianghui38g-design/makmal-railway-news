@@ -1,9 +1,4 @@
-# 安装依赖
-pip install requests beautifulsoup4 lxml
-
-# 后台运行（Linux/Mac）
-nohup python3 railway_crawler.py > crawler.log 2>&1 &
-
-# 或使用screen
-screen -S railway-crawler
-python3 railway_crawler.py
+streamlit
+feedparser
+requests
+pandas
